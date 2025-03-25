@@ -113,7 +113,6 @@ func (p *Plugin) startUDPHandler(processor *Processor) {
 			offset++
 			processor.PutEvent(buffer[:n])
 		}
-
 	}()
 
 }
