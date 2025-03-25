@@ -51,6 +51,8 @@ import (
 	_ "github.com/ozontech/file.d/plugin/input/k8s"
 	_ "github.com/ozontech/file.d/plugin/input/kafka"
 	_ "github.com/ozontech/file.d/plugin/input/socket"
+	_ "github.com/ozontech/file.d/plugin/input/udp"
+	_ "git
 	_ "github.com/ozontech/file.d/plugin/output/clickhouse"
 	_ "github.com/ozontech/file.d/plugin/output/devnull"
 	_ "github.com/ozontech/file.d/plugin/output/elasticsearch"
